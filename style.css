@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root {
+    --cor01: #3DEBCB;
+    --cor02: #1A9E86;
+    --cor03: #E84A0E;
+    --cor04: #FF6429;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F1FFE7
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display:flex
+}
+
+.esquerdo {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.esquerdo > h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: #1A1B41;
+    font-size: 2em;
+    text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.256);
+
+}
+
+.esquerdo > p {
+    font-family: 'Ubuntu', sans-serif;
+    color:#E84A0E;
+    font-size: 1.3em;
+}
+
+.esquerdo > img {
+    width: 400px;
+    height: 400px;
+    padding-top: 10px;
+}
+
+.direito {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.caixalogin {
+    background-color: #1A1B41;
+    border-radius: 15px 5px;
+    height: auto;
+    width: 60%;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.395);   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.caixalogin > .login {
+    padding: 15px;
+}
+
+.caixalogin > .senha {
+    padding: 15px;
+}
+
+input {
+    background-color: #70707047;
+    border-radius: 7px;
+    border: none;
+    height: 40px;
+    width: 300px;
+    outline: none;
+    color:white;
+    padding-inline-start: 5px;
+    
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    padding: 2px;
+    color: white;
+}
+
+button {
+    border-radius: 7px;
+    border: none;
+    height: 30px;
+    width: 190px;
+    padding-top: 10px;
+    background-color: #ff966ca7;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.575);
+    font-weight:bold ;
+}
