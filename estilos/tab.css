@@ -1,0 +1,27 @@
+@charset "UT-8";
+
+body {
+    background-image: linear-gradient(180deg, #8258ff, purple);
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90vw;
+    height: 60vh;
+    box-shadow: 2px 2px 3px black;
+}
+
+main > section#imagem {
+    height: 100%;
+    width: 25%;
+    border-radius: 20px 0px 0px 20px;
+    background-position: center bottom;
+}
+
+main > section#login {
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+}
+
