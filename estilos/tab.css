@@ -25,3 +25,15 @@ main > section#login {
     padding: 10px;
 }
 
+div.email, div.password {
+    height: 40px;
+}
+
+div.submit {
+    padding-top: 15px;
+}
+
+div.submit > input#button {
+    height: 40px;
+}
+
